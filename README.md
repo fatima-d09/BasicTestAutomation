@@ -58,9 +58,9 @@ Edit the reporters in the wdio.config.js file:
             }]],
  ```        
 Install the Allure command-line tool:
-   
-   allure generate [**allure_output_dir_name**] && allure open
-    
+   ```
+   allure generate [allure_output_dir_NAME]
+   ``` 
 Process the results directory:
     
     allure open   
